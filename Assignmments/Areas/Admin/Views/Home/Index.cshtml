@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+<h1>Admin Index Page</h1>
+
+<p><a asp-area="Admin" asp-controller="Dummy" asp-action="Dummy1">Dummy Page 1 With Default Routing</a></p>
+<p><a asp-area="Admin" asp-controller="Dummy" asp-action="Dummy23" asp-route-id="2">Dummy Page 2 With Custom Routing</a></p>
+<p>If you type localhost:5001/Dummy3 in the url the third dummy controller will appear.</p>
